@@ -39,7 +39,7 @@ export default function Footer() {
               <li><a href="/about">About</a></li>
               <li><a href="/solution">Solutions</a></li>
               <li><a href="/contact">Contact</a></li>
-              <li><a href="/ebook">eBook</a></li>
+              <li><a href="/ebooks">eBook</a></li>
             </ul>
             <div className="copyright-area">
               <p>© {currentYear} FloriQX Technologies. All rights reserved.</p>
