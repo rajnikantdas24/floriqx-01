@@ -14,7 +14,7 @@ export default function TestimonialSec11() {
             Us
           </h2>
           <p data-aos="fade-up" data-aos-duration="700">
-            Hear how more than 1,000 users improved their productivity, streamlined their processes, and found lasting value through our solution.
+            Hear how more than 1,00 users improved their productivity, streamlined their processes, and found lasting value through our solution.
           </p>
         </div>
         <div className="row">

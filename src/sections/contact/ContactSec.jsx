@@ -12,7 +12,7 @@ export default function ContactSec() {
   const [status, setStatus] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const ACCESS_KEY = 'YOUR_WEB3FORMS_ACCESS_KEY'; // apna access key yahan daalo
+  const ACCESS_KEY = 'ba2974de-59c8-475f-a10e-9867c798e7d4';
 
   const validateField = (name, value) => {
     switch (name) {
@@ -83,7 +83,7 @@ export default function ContactSec() {
           Accept: 'application/json'
         },
         body: JSON.stringify({
-          access_key: 'ba2974de-59c8-475f-a10e-9867c798e7d4',
+          access_key: ACCESS_KEY,
           name: formData.name.trim(),
           email: formData.email.trim(),
           subject: formData.subject,
