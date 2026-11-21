@@ -6,8 +6,6 @@ export default function CaseStudy() {
   return (
     <>
       <CaseStudyPageBanner />
-      <ProjectSec2 />
-      <TrialSec />
     </>
   );
 }

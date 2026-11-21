@@ -16,7 +16,7 @@ export default function ContactPageBanner() {
               </h1>
             </div>
             <div className="page-banner-img" data-aos="zoom-in" data-aos-duration="900" data-aos-delay="400">
-              <img src="/assets/images/hero/her2-1.png" alt="Contact Us Banner Image" />
+              <img src="/assets/images/hero/contact_hero.png" alt="Contact Us Banner Image" />
             </div>
           </div>
         </div>
@@ -26,13 +26,19 @@ export default function ContactPageBanner() {
       <div className="marquee-style1">
         <div className="marquee1">
           <div className="marquee-track">
-            <span>IT Solution - Cyber Security</span>
+            <span>Software Development</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>AI Integration & Learning</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>eCommerce Solutions</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>Cloud Computing</span>
+            {" "}
+            <span>DevOps</span>
+            {" "}
+            <span>Consulting</span>
+            {" "}
+            <span>E-Books</span>
           </div>
         </div>
       </div>

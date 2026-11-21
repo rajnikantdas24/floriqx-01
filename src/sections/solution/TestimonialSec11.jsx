@@ -7,7 +7,7 @@ export default function TestimonialSec11() {
             Our Testimonials
           </span>
           <h2 className="title" data-aos="fade-up" data-aos-duration="900">
-            1000+
+            100+
             {" "}
             <span>Customer Say</span>
             {" "}

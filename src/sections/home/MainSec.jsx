@@ -7,6 +7,13 @@ export default function MainSec() {
       <div className="hero-style1">
         <div className="carousel-container">
           <div className="hero-info">
+            <div className="page-banner-content">
+              <h1 className="title" data-aos="fade" data-aos-duration="900" data-aos-delay="300">
+                Building Smarter Solutions for
+                {" "}
+                <span>Connected World</span>
+              </h1>
+            </div>            
             <div className="row">
                 <div className="video-box">
                   <img src="/assets/images/hero/floriqx-home-01.png" alt="Company introduction video thumbnail" />

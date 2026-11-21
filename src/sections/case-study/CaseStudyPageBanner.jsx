@@ -6,17 +6,14 @@ export default function CaseStudyPageBanner() {
         <div className="carousel-container">
           <div className="page-banner-info">
             <div className="page-banner-content">
-              <span className="sub-title" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
-                Use Cases
-              </span>
               <h1 className="title" data-aos="fade" data-aos-duration="900" data-aos-delay="300">
-                Transforming Businesses
+                Practical Knowledge
                 {" "}
-                <span>Across Industries</span>
+                <span>Instant Access</span>
               </h1>
             </div>
             <div className="page-banner-img" data-aos="zoom-in" data-aos-duration="900" data-aos-delay="400">
-              <img src="/assets/images/hero/hero2-3.png" alt="Use Cases Banner Image" />
+              <img src="/assets/images/hero/ebooks_hero.png" alt="Practical Knowledge Banner Image" />
             </div>
           </div>
         </div>
@@ -26,13 +23,19 @@ export default function CaseStudyPageBanner() {
       <div className="marquee-style1">
         <div className="marquee1">
           <div className="marquee-track">
-            <span>IT Solution - Cyber Security</span>
+            <span>Software Development</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>AI Integration & Learning</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>eCommerce Solutions</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>Cloud Computing</span>
+            {" "}
+            <span>DevOps</span>
+            {" "}
+            <span>Consulting</span>
+            {" "}
+            <span>E-Books</span>
           </div>
         </div>
       </div>

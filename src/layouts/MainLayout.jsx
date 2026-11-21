@@ -56,7 +56,6 @@ export default function MainLayout() {
   return (
     <>
       <VideoPopup isOpen={video.isOpen} onClose={video.close} />
-      <DarkModeButton />
       <Preloader />
 
       <div className="wrapper">

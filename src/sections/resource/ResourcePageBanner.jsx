@@ -6,17 +6,15 @@ export default function ResourcePageBanner() {
         <div className="carousel-container">
           <div className="page-banner-info">
             <div className="page-banner-content">
-              <span className="sub-title" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
-                Resources
-              </span>
               <h1 className="title" data-aos="fade" data-aos-duration="900" data-aos-delay="300">
-                Resources to Empower
+                Learn Skills & Apply Them to
                 {" "}
-                <span>Your Business</span>
+                <span>Grow</span>
               </h1>
             </div>
             <div className="page-banner-img" data-aos="zoom-in" data-aos-duration="900" data-aos-delay="400">
-              <img src="/assets/images/hero/hero2-2.png" alt="Resources Hero Image" />
+              <img src="/assets/images/hero/learn_hero.png
+              " alt="Learn and Grow" />
             </div>
           </div>
         </div>
@@ -26,13 +24,19 @@ export default function ResourcePageBanner() {
       <div className="marquee-style1">
         <div className="marquee1">
           <div className="marquee-track">
-            <span>IT Solution - Cyber Security</span>
+            <span>Software Development</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>AI Integration & Learning</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>eCommerce Solutions</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>Cloud Computing</span>
+            {" "}
+            <span>DevOps</span>
+            {" "}
+            <span>Consulting</span>
+            {" "}
+            <span>E-Books</span>
           </div>
         </div>
       </div>

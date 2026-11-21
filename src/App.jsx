@@ -19,7 +19,7 @@ export default function App() {
             <Route path="index-onepage" element={<HomeOnePage />} />
             <Route path="about" element={<About />} />
             <Route path="solution" element={<Solution />} />
-            <Route path="projects" element={<Resource />} />
+            <Route path="learn" element={<Resource />} />
             <Route path="eBooks" element={<CaseStudy />} />
             <Route path="contact" element={<Contact />} />
             <Route path="*" element={<Navigate to="/" replace />} />

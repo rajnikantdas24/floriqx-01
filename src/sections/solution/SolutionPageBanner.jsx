@@ -6,9 +6,6 @@ export default function SolutionPageBanner() {
         <div className="carousel-container">
           <div className="page-banner-info">
             <div className="page-banner-content">
-              <span className="sub-title" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
-                IT Solutions
-              </span>
               <h1 className="title" data-aos="fade" data-aos-duration="900" data-aos-delay="300">
                 Pioneering Smart IT for
                 {" "}
@@ -16,7 +13,7 @@ export default function SolutionPageBanner() {
               </h1>
             </div>
             <div className="page-banner-img" data-aos="zoom-in" data-aos-duration="900" data-aos-delay="400">
-              <img src="/assets/images/hero/hero2-4.png" alt="Smart IT Solutions for Smarter Businesses" />
+              <img src="/assets/images/hero/solution_hero.png" alt="Smart IT Solutions for Smarter Businesses" />
             </div>
           </div>
         </div>
@@ -26,13 +23,19 @@ export default function SolutionPageBanner() {
       <div className="marquee-style1">
         <div className="marquee1">
           <div className="marquee-track">
-            <span>IT Solution - Cyber Security</span>
+            <span>Software Development</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>AI Integration & Learning</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>eCommerce Solutions</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>Cloud Computing</span>
+            {" "}
+            <span>DevOps</span>
+            {" "}
+            <span>Consulting</span>
+            {" "}
+            <span>E-Books</span>
           </div>
         </div>
       </div>

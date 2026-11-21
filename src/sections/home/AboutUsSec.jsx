@@ -7,14 +7,11 @@ export default function AboutUsSec({ id }) {
             <div className="col-lg-7">
               <div className="about-content">
                 <div className="sec-title mb-0">
-                  <span className="sub-title" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
-                    Learn About us
-                  </span>
                   <h2 className="title" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
-                    We deliver end-to-end technology solutions that help businesses innovate and grow. Custom software development to cloud integration
+                    We deliver end-to-end technology solutions that help businesses innovate and grow.
                   </h2>
                   <div className="about-btn" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
-                    <a href="#" className="btn-style1">
+                    <a href="about" className="btn-style1">
                       Learn More Us
                       {" "}
                       <span>

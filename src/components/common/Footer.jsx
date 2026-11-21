@@ -2,6 +2,9 @@ export default function Footer() {
   // Scroll To Top button
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
+  // Dynamic year (return se pehle, function ke andar)
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer-style1">
       <button id="scrollTopBtn" onClick={scrollToTop}>
@@ -22,17 +25,8 @@ export default function Footer() {
               </p>
             </div>
             <div className="footer-btn">
-              <a href="#" className="btn-style1">
-                Start Your Project
-                {" "}
-                <span>
-                  <img src="/assets/images/icon/arrow.svg" alt="Arrow icon" />
-                </span>
-              </a>
-              {" "}
-              <a href="#" className="btn-style1 v2">
-                Sell All Works
-                {" "}
+              <a href="/contact" className="btn-style1">
+                Start Your Project{" "}
                 <span>
                   <img src="/assets/images/icon/arrow.svg" alt="Arrow icon" />
                 </span>
@@ -42,21 +36,13 @@ export default function Footer() {
           <div className="shade" />
           <div className="footer-bottom">
             <ul className="footer-links">
-              <li>
-                <a href="">Features</a>
-              </li>
-              <li>
-                <a href="">Integrations</a>
-              </li>
-              <li>
-                <a href="">Download</a>
-              </li>
-              <li>
-                <a href="">Pricing</a>
-              </li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/solution">Solutions</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/ebook">eBook</a></li>
             </ul>
             <div className="copyright-area">
-              <p>Sasico 2025 © All rights reserved</p>
+              <p>© {currentYear} FloriQX Technologies. All rights reserved.</p>
             </div>
           </div>
         </div>

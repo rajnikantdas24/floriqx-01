@@ -8,28 +8,14 @@ export default function AboutPageBanner() {
         <div className="carousel-container">
           <div className="page-banner-info">
             <div className="page-banner-content">
-              <span className="sub-title" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
-                About Us
-              </span>
               <h1 className="title" data-aos="fade" data-aos-duration="900" data-aos-delay="300">
-                Building Smarter Solutions for
+                Turn Your Ideas into Reality with Our
                 {" "}
-                <span>Connected World</span>
+                <span>Expertise</span>
               </h1>
             </div>
             <div className="page-banner-img" data-aos="zoom-in" data-aos-duration="900" data-aos-delay="400">
-              <img src="/assets/images/hero/hero2-5.png" alt="Banner hero image" />
-              <div className="exp-box">
-                <div className="counter-box">
-                  <Counter target={38} />
-                  k+
-                </div>
-                <span className="sub-title">
-                  million our happy global clients
-                </span>
-                {" "}
-                <img src="/assets/images/author/exp1-1.png" alt="Experience icon image" />
-              </div>
+              <img src="/assets/images/hero/aboutus.png" alt="About Us" />
             </div>
           </div>
         </div>
@@ -39,13 +25,19 @@ export default function AboutPageBanner() {
       <div className="marquee-style1">
         <div className="marquee1">
           <div className="marquee-track">
-            <span>IT Solution - Cyber Security</span>
+            <span>Software Development</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>AI Integration & Learning</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>eCommerce Solutions</span>
             {" "}
-            <span>IT Solution - Cyber Security</span>
+            <span>Cloud Computing</span>
+            {" "}
+            <span>DevOps</span>
+            {" "}
+            <span>Consulting</span>
+            {" "}
+            <span>E-Books</span>
           </div>
         </div>
       </div>

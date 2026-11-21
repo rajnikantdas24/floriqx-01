@@ -6,17 +6,17 @@ export default function FunfactSec() {
       <h2 className="main-title">funfact-title</h2>
       <div className="carousel-container">
         <div className="row">
-          <div className="col-lg-3 col-md-6 col-sm-6">
+          <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="funfact-block" data-aos="fade" data-aos-duration="900" data-aos-delay="300">
               <span className="sub-title">Project Complete</span>
               <div className="counter-box">
-                <Counter target={35} />
-                k+
+                <Counter target={110} />
+                +
               </div>
               <p>We take pride in delivering wide range of IT solutions</p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-6">
+          <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="funfact-block" data-aos="fade" data-aos-duration="900" data-aos-delay="400">
               <span className="sub-title">Clients Satisfactions</span>
               <div className="counter-box">
@@ -28,26 +28,16 @@ export default function FunfactSec() {
               </p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-6">
+          <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="funfact-block" data-aos="fade" data-aos-duration="900" data-aos-delay="500">
               <span className="sub-title">Years Of Experience</span>
               <div className="counter-box">
-                <Counter target={10} />
+                <Counter target={15} />
                 +
               </div>
               <p>
                 We have successfully delivered innovative solutions to clients.
               </p>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 col-sm-6">
-            <div className="funfact-block" data-aos="fade" data-aos-duration="900" data-aos-delay="600">
-              <span className="sub-title">Revenue Growth</span>
-              <div className="counter-box">
-                <Counter target={13} />
-                m
-              </div>
-              <p>Average revenue growth for per successful clients</p>
             </div>
           </div>
         </div>

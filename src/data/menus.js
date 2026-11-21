@@ -3,7 +3,7 @@ export const mainMenu = [
   { label: 'Home', to: '/' },
   { label: 'About', to: '/about' },
   { label: 'Solutions', to: '/solution' },
-  { label: 'Projects', to: '/projects' },
+  { label: 'Learn', to: '/learn' },
   { label: 'eBooks', to: '/ebooks' },
   { label: 'Contact', to: '/contact' },
 ];

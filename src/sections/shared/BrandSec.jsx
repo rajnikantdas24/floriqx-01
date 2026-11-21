@@ -3,10 +3,9 @@ import SwiperBox from '../../components/common/SwiperBox';
 export default function BrandSec({ className = "brand-sec space" }) {
   return (
     <section className={className}>
-      <h2>brand sec</h2>
       <div className="container-fluid">
         <div className="brand-title" data-aos="fade-down" data-aos-duration="900">
-          <span>Trusted by over 1.7 million companies worldwide</span>
+          <span>Technologies we work with</span>
         </div>
         <SwiperBox swiperName="brand" className="swiper brand" data-aos="fade-up" data-aos-duration="900">
           <div className="swiper-wrapper">

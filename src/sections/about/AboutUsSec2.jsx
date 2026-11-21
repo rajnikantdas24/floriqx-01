@@ -30,7 +30,7 @@ export default function AboutUsSec2() {
                         data-aos-duration="900"
                         data-aos-delay="400"
                       >
-                        <img src="/assets/images/about/about2-1.png" alt="Team working on IT solutions" />
+                        <img src="/assets/images/about/about_03.png" alt="Team working on IT solutions" />
                       </div>
                     </div>
                     <div className="col-lg-7 col-md-7">
@@ -93,13 +93,12 @@ export default function AboutUsSec2() {
                                   Innovative Mindset & End-to-End Solutions
                                 </li>
                               </ul>
-                              <a href="#" className="btn-style1">
-                                Meet Our Teams
-                                {" "}
-                                <span>
-                                  <img src="/assets/images/icon/arrow.svg" alt="Arrow icon" />
-                                </span>
-                              </a>
+                              <a href="/contact" className="btn-style1">
+                              Start Your Project{" "}
+                              <span>
+                                <img src="/assets/images/icon/arrow.svg" alt="Arrow icon" />
+                              </span>
+                            </a>
                             </div>
                           </div>
                           <div
@@ -142,7 +141,7 @@ export default function AboutUsSec2() {
             <div className="col-lg-5">
               <div className="about-img2_one">
                 <img
-                  src="/assets/images/about/about2-2.png"
+                  src="/assets/images/about/about_02.png"
                   alt="Company office workspace"
                   data-aos="fade-up"
                   data-aos-duration="900"
@@ -150,7 +149,7 @@ export default function AboutUsSec2() {
                 />
                 <div className="about-counter">
                   <div className="counter-box">
-                    <Counter target={10} />
+                    <Counter target={15} />
                     +
                   </div>
                   <p>Years of experience in IT Solutions</p>

@@ -36,7 +36,7 @@ export default function ChooseUsSec2() {
                     On-Time Delivery
                   </li>
                 </ul>
-                <a href="#" className="btn-style1">
+                <a href="contact" className="btn-style1">
                   Get Started With Us
                   {" "}
                   <span>

@@ -5,7 +5,6 @@ export default function Resource() {
   return (
     <>
       <ResourcePageBanner />
-      <ResourceBlogSec />
     </>
   );
 }

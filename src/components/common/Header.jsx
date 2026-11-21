@@ -44,7 +44,7 @@ export default function Header({ onePage, onOpenSearch, onOpenMenu }) {
                 <a href="#" className="search-btn" aria-label="Search" onClick={openSearch}>
                   <img src="/assets/images/icon/search.svg" alt="Search Icon" />
                 </a>{' '}
-                <a href="#" className="sign-btn menu-btn">Free Quote</a>
+                <a href="/contact" className="sign-btn menu-btn">Free Quote</a>
                 {/* Hamburger for mobile */}{' '}
                 <button className="hamburger-btn" aria-label="Toggle Menu" onClick={onOpenMenu}>
                   <span /> <span /> <span />

@@ -11,7 +11,6 @@ export default function Solution() {
       <SolutionServiceSec2 />
       <ProcessBanner />
       <ChooseUsSec2 />
-      <TestimonialSec11 />
     </>
   );
 }
