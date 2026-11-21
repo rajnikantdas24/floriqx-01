@@ -42,7 +42,6 @@ export default function ContactSec() {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
 
-    // validations
     if (touched[name]) {
       const error = validateField(name, value);
       setErrors(prev => ({ ...prev, [name]: error }));
@@ -86,13 +85,15 @@ export default function ContactSec() {
           access_key: ACCESS_KEY,
           name: formData.name.trim(),
           email: formData.email.trim(),
-          subject: formData.subject,
+          subject: formData.subject || 'Contact Form Submission',
           message: formData.message.trim(),
-          from_name: 'Floriqx Contact Form'
+          from_name: 'Floriqx Contact Form',
+          botcheck: ''
         })
       });
 
       const result = await response.json();
+      console.log('Web3Forms response:', result);
 
       if (result.success) {
         setStatus('success');
@@ -100,16 +101,17 @@ export default function ContactSec() {
         setTouched({});
         setErrors({});
       } else {
+        console.log('Error details:', result.message || result);
         setStatus('error');
       }
     } catch (err) {
+      console.error('Submit error:', err);
       setStatus('error');
     } finally {
       setIsSubmitting(false);
     }
   };
 
-  // Helper for input style
   const getInputStyle = (field) => ({
     border: errors[field] && touched[field] ? '1.5px solid #e74c3c' : undefined,
     outline: errors[field] && touched[field] ? 'none' : undefined
